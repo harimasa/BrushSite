@@ -1,0 +1,442 @@
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #171d23;
+    display: block;
+    unicode-bidi: isolate;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .wbc, .install, .perks {
+         flex-basis: 100%;
+     }
+ }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 750px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+}
+
+footer {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: center;
+    width: 750px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+    font-family: "Fredoka", sans-serif;
+}
+
+#brush-logo {
+    width: 150px;
+    height: 70px;
+    margin: -10px;
+    margin-left: -120px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 15px;
+}
+
+.License {
+    margin: 30px 30px;
+}
+
+.Copyright {
+    margin: 30px 30px;
+}
+
+.Credit {
+    margin: 30px 30px;
+}
+
+#card-name {
+    margin-left: 30px;
+}
+
+.modrinth {
+    padding: .75rem 1.25rem;
+    border-radius: .75rem;
+    background-color: #88ff71;
+    color: #003220;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin: 10px 10px;
+}
+
+.github {
+    padding: .75rem 1.25rem;
+    border-radius: .75rem;
+    background-color: #88ff71;
+    color: #003220;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin: 10px 10px;
+}
+
+.corp {
+    padding: .75rem 1.25rem;
+    border-radius: .75rem;
+    background-color: #88ff71;
+    color: #003220;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 10px;
+    margin: 10px 10px;
+}
+
+.wbc {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 276px;
+    height: 173px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 5px;
+    margin-left: -100px;
+    position: static;
+}
+
+#Why {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.wbc p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.install {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 126px;
+    height: 173px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 5px;
+    margin-left: 210px;
+    margin-top: -203px;
+    position: static;
+}
+
+#HI {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.install p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.perks {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 276px;
+    height: 173px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-left: 370px;
+    margin-top: -203px;
+    position: static;
+}
+
+#P {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.perks p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.Osn {
+    margin-left: 110px;
+}
+
+.Links {
+    margin-left: 115px;
+}
+
+.DESC {
+    margin-left: 10px;
+}
+
+.description {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 750px;
+    height: 160px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+    margin-left: -110px;
+    position: static;
+}
+
+#Desc {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.description p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.features {
+    padding: .75rem 1.25rem;
+    border-radius: .75rem;
+    background-color: #88ff71;
+    color: #003220;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 600px;
+    margin: 10px 10px;
+}
+
+.home {
+    padding: .75rem 1.25rem;
+    border-radius: .75rem;
+    background-color: #88ff71;
+    color: #003220;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: -20px;
+    margin: 10px 10px;
+}
+
+.Home {
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+.Features {
+    margin-left: 500px;
+}
+
+.Mods {
+    margin-left: 395px;
+}
+
+.combat {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 129px;
+    height: 459px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+    margin-left: -385px;
+    position: static;
+}
+
+#Combo {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.combat p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.render {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 129px;
+    height: 459px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+    margin-left: -205px;
+    margin-top: -489px;
+    position: static;
+}
+
+#Rend {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.render p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.hud {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 129px;
+    height: 459px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+    margin-left: 240px;
+    margin-top: -489px;
+    position: static;
+}
+
+#Hud {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.hud p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.misc {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: left;
+    width: 129px;
+    height: 459px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: 10px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px 10px;
+    margin-left: 60px;
+    margin-top: -489px;
+    position: static;
+}
+
+#Misc {
+    font-family: "Fredoka", sans-serif;
+    order: 1;
+}
+
+.misc p {
+    font-family: "Noto Sans", sans-serif;
+    order: 2;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
