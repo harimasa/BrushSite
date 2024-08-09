@@ -13,37 +13,6 @@ body {
     height: auto;
 }
 
-.preview, .container-features {
-    margin: 0;
-    padding: 0;
-}
-
-.preview h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 96px;
-    max-width: 50px;
-    color: white;
-    position: relative;
-    left: 100px;
-    bottom: 50px;
-    text-align: center;
-}
-
-.image {
-    position: relative;
-    margin-left: 650px;
-    bottom: 435px;
-}
-
-.image img {
-    width: 550px;
-    height: auto;
-    border-radius: 10px;
-}
-
 #helpLinks {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -67,42 +36,6 @@ body {
 
 #helpLinks a:last-child {
     margin-right: 0;
-}
-
-.container-features {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    max-width: 1200px;
-    padding: 24px;
-    background-color: #1a1c1b;
-    display: flex;
-    flex-wrap: nowrap;
-    position: relative;
-    bottom: 400px;
-    left: 50px;
-}
-
-.functional, .install, .versions {
-    flex: 1;
-    padding: 24px;
-    background-color: #1a1c1b;
-    box-sizing: border-box;
-    line-height: 28px;
-    margin: 10px;
-}
-
-.functional h2, .install h2, .versions h2 {
-    margin-top: 0;
-    color: white;
-    font-size: 24px;
-}
-
-.functional p, .install p, .versions p {
-    line-height: 1.6;
-    color: white;
-    font-size: 16px;
 }
 
 .other {
@@ -147,55 +80,6 @@ body {
 
 .links img:hover {
     transform: scale(1.05);
-}
-
-.download-container {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    position: relative;
-    bottom: 450px;
-    left: 150px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    height: 100px;
-    width: 1000px;
-    padding: 20px;
-    background-color: #8d3131;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.download-button {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    padding: 10px 20px;
-    position: relative;
-    left: 290px;
-    font-size: 22px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.download-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-.text {
-    font-size: 36px;
-    font-weight: bold;
-    color: white;
-    position: relative;
-    left: 50px;
 }
 
 .help {
@@ -251,4 +135,55 @@ body {
 .help a:hover {
     color: lightgray;
     text-decoration: none;
+}
+
+.faq {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    max-width: 1200px;
+    padding: 24px;
+    background-color: #1a1c1b;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    bottom: 400px;
+    left: 25px;
+    margin-top: 400px;
+    font-size: 12px;
+    line-height: 1.6;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.aq1, .aq2, .aq3, .aq4 {
+    flex: 1;
+    padding: 24px;
+    background-color: #1a1c1b;
+    box-sizing: border-box;
+    line-height: 28px;
+    margin: 10px;
+}
+
+.aq1 h2, .aq2 h2, .aq3 h2, .aq4 h2 {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.aq1 p, .aq2 p, .aq3 p, .aq4 p {
+    line-height: 1.6;
+    color: white;
+    font-size: 16px;
+}
+
+.aq1 a, .aq2 a, .aq3 a, .aq4 a {
+    position: relative;
+    color: white;
+}
+
+.aq1 a:hover, .aq2 a:hover, .aq3 a:hover, .aq4 a:hover {
+    color: lightgray;
 }
