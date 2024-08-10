@@ -195,7 +195,12 @@ body {
     color: lightgray;
 }
 
-@media screen and (width: 1920px) and (height: 1080px) {
+.faq {
+    position: relative;
+    left: 50px;
+}
+
+@media screen and (max-width: 1920px) {
     .All {
         position: relative;
         left: 270px;
@@ -204,5 +209,17 @@ body {
     .All-2 {
         position: relative;
         left: 270px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .All {
+        position: relative;
+        left: 0px;
+    }
+
+    .All-2 {
+        position: relative;
+        left: 0px;
     }
 }
