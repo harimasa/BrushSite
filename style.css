@@ -1,6 +1,13 @@
 body {
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     overflow-x: hidden;
+}
+
+:root {
+    --background-color: #1a1c1b;
+    --text-color: white;
+    --primary-color: #007bff;
+    --hover-color: #0056b3;
 }
 
 .logo {
@@ -25,7 +32,7 @@ body {
     font-style: normal;
     font-size: 96px;
     max-width: 50px;
-    color: white;
+    color: var(--text-color);
     position: relative;
     left: 100px;
     bottom: 50px;
@@ -53,7 +60,7 @@ body {
 
 #helpLinks a {
     position: relative;
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     margin-right: 30px;
     left: 700px;
@@ -76,7 +83,7 @@ body {
     font-style: normal;
     max-width: 1200px;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     display: flex;
     flex-wrap: nowrap;
     position: relative;
@@ -87,7 +94,7 @@ body {
 .functional, .install, .versions {
     flex: 1;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     box-sizing: border-box;
     line-height: 28px;
     margin: 10px;
@@ -95,13 +102,13 @@ body {
 
 .functional h2, .install h2, .versions h2 {
     margin-top: 0;
-    color: white;
+    color: var(--text-color);
     font-size: 24px;
 }
 
 .functional p, .install p, .versions p {
     line-height: 1.6;
-    color: white;
+    color: var(--text-color);
     font-size: 16px;
 }
 
@@ -114,7 +121,7 @@ body {
 }
 
 .other p {
-    color: white;
+    color: var(--text-color);
 }
 
 .rights p {
@@ -123,7 +130,7 @@ body {
     top: 200px;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--text-color);
     font-size: 10px;
 }
 
@@ -177,8 +184,8 @@ body {
     position: relative;
     left: 290px;
     font-size: 22px;
-    background-color: #007bff;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -186,14 +193,14 @@ body {
 }
 
 .download-button:hover {
-    background-color: #0056b3;
+    background-color: var(--hover-color);
     transform: scale(1.05);
 }
 
 .text {
     font-size: 36px;
     font-weight: bold;
-    color: white;
+    color: var(--text-color);
     position: relative;
     left: 50px;
 }
@@ -205,7 +212,7 @@ body {
     font-style: normal;
     max-width: 600px;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     display: flex;
     flex-wrap: nowrap;
     position: relative;
@@ -216,7 +223,7 @@ body {
 .Main, .Websites, .Contact {
     flex: 1;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     box-sizing: border-box;
     line-height: 28px;
     margin: 10px;
@@ -232,7 +239,7 @@ body {
     display: block;
     max-width: 100%;
     line-height: 1.6;
-    color: white;
+    color: var(--text-color);
     font-size: 12px;
     width: fit-content;
     text-decoration: none;
@@ -241,7 +248,7 @@ body {
 .Contact p {
     font-size: 12px;
     line-height: 1.6;
-    color: white;
+    color: var(--text-color);
     display: block;
     max-width: 100%;
     width: fit-content;
@@ -251,4 +258,16 @@ body {
 .help a:hover {
     color: lightgray;
     text-decoration: none;
+}
+
+@media screen and (width: 1920px) and (height: 1080px) {
+    .All {
+        position: relative;
+        left: 270px;
+    }
+
+    .All-2 {
+        position: relative;
+        left: 270px;
+    }
 }

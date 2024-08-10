@@ -1,6 +1,13 @@
 body {
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     overflow-x: hidden;
+}
+
+:root {
+    --background-color: #1a1c1b;
+    --text-color: white;
+    --primary-color: #007bff;
+    --hover-color: #0056b3;
 }
 
 .logo {
@@ -22,7 +29,7 @@ body {
 
 #helpLinks a {
     position: relative;
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     margin-right: 30px;
     left: 700px;
@@ -47,7 +54,7 @@ body {
 }
 
 .other p {
-    color: white;
+    color: var(--text-color);
 }
 
 .rights p {
@@ -56,7 +63,7 @@ body {
     top: 200px;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--text-color);
     font-size: 10px;
 }
 
@@ -89,7 +96,7 @@ body {
     font-style: normal;
     max-width: 600px;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     display: flex;
     flex-wrap: nowrap;
     position: relative;
@@ -100,7 +107,7 @@ body {
 .Main, .Websites, .Contact {
     flex: 1;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     box-sizing: border-box;
     line-height: 28px;
     margin: 10px;
@@ -108,7 +115,7 @@ body {
 }
 
 .Main h2, .Websites h2, .Contact h2 {
-    color: white;
+    color: var(--text-color);
     font-size: 20px;
 }
 
@@ -116,7 +123,7 @@ body {
     display: block;
     max-width: 100%;
     line-height: 1.6;
-    color: white;
+    color: var(--text-color);
     font-size: 12px;
     width: fit-content;
     text-decoration: none;
@@ -125,7 +132,7 @@ body {
 .Contact p {
     font-size: 12px;
     line-height: 1.6;
-    color: white;
+    color: var(--text-color);
     display: block;
     max-width: 100%;
     width: fit-content;
@@ -144,7 +151,7 @@ body {
     font-style: normal;
     max-width: 1200px;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     display: flex;
     flex-wrap: nowrap;
     position: relative;
@@ -161,7 +168,7 @@ body {
 .aq1, .aq2, .aq3, .aq4 {
     flex: 1;
     padding: 24px;
-    background-color: #1a1c1b;
+    background-color: var(--background-color);
     box-sizing: border-box;
     line-height: 28px;
     margin: 10px;
@@ -169,21 +176,33 @@ body {
 
 .aq1 h2, .aq2 h2, .aq3 h2, .aq4 h2 {
     margin-top: 0;
-    color: white;
+    color: var(--text-color);
     font-size: 24px;
 }
 
 .aq1 p, .aq2 p, .aq3 p, .aq4 p {
     line-height: 1.6;
-    color: white;
+    color: var(--text-color);
     font-size: 16px;
 }
 
 .aq1 a, .aq2 a, .aq3 a, .aq4 a {
     position: relative;
-    color: white;
+    color: var(--text-color);
 }
 
 .aq1 a:hover, .aq2 a:hover, .aq3 a:hover, .aq4 a:hover {
     color: lightgray;
+}
+
+@media screen and (width: 1920px) and (height: 1080px) {
+    .All {
+        position: relative;
+        left: 270px;
+    }
+
+    .All-2 {
+        position: relative;
+        left: 270px;
+    }
 }
